@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="insert.css">
+</head>
+<body>
+
+<div class="container">
+	<div class="heading">
+		<div class="logo">
+			<img src="imdb.jpe" alt="Fjords" width=100% height=100% >
+		</div>
+		<h1 id="header2">IMDB </h1>
+
+	</div>
+
+	<div class="icon-bar">
+		<a href="home.html"><i>Home</i></a> 
+		<a class="active" href="insert.html"><i>Insert</i></a> 
+		<a href="query.html"><i>Query</i></a> 
+	</div>  
+
+	<div class="footer">
+			<form method="post" action="insert.php">
+<ul class="form-style-1">
+    <li>
+    	<label><span class="required">Movie Title</span></label>
+        <input type="text" name="title" class="field-long" />
+    </li>
+    <li>
+        <label><span class="required">Rating</span></label>
+        <input type="text" name="rating" class="field-long" />
+    </li>
+    <li>
+    	<label><span class="required">Release Date</span></label>
+        <input type="date" name="rdate" class="field-long" />
+    </li>
+    <li>
+        <label><span class="required">Duration</span></label>
+        <input type="text" name="duration" class="field-long" />
+    </li>
+    <li>
+    	<label><span class="required">Director</span></label>
+        <input type="text" name="director" class="field-long" />
+    </li>
+
+    <li>
+    	<label><span class="required">Actor</span></label>
+        <input type="text" name="actor" class="field-long" />
+    </li>
+    <li>
+    	<label><span class="required">Actress</span></label>
+        <input type="text" name="actress" class="field-long" />
+    </li>
+    <li>
+        <input type="submit" value="Submit" />
+    </li>
+</ul>
+</form>
+		
+	</div>
+</div>
+</body>
+</html>

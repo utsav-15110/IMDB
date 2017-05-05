@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="query.css">
+</head>
+<body>
+
+<div class="container">
+
+	<div class="heading">
+		<div class="logo">
+			<img src="imdb.jpe" alt="Fjords" width=100% height=100% >
+		</div>
+		<h1 id="header2">IMDB </h1>
+
+	</div>
+
+	<div class="icon-bar">
+	<a  href="home.html"><i>Home</i></a> 
+	  <a href="insert.html"><i>Insert</i></a> 
+	  <a class="active" href="query.html"><i>Query</i></a> 
+	</div>
+	<div class = "footer">
+		<div class="left">
+		<div class="li2">
+ 			<a href="query.html">Movies</a></li>
+			<a href="actor_query.html">Actor</a>
+			</div>
+		</div>
+		<div class="content">
+			
+		 	<form method="post" action="aquery.php">
+				<ul class="form-style-1">
+
+				<li><div class="li1"> Query</div></li><br><br><br>
+				<li>
+				        <label id="lab">Gender</label>
+				        <select name="gender" class="field-select">
+				        <option value="None"></option>
+				        <option value="Female">Female</option>
+				        <option value="Male">Male</option>
+				        </select>
+				    </li>
+				    <li>
+				        <label id="lab">Number of Movies Acted in</label>
+				        <input type="text" name="countmovies" class="field-long" />
+				    </li>
+				    <li>
+				        <input type="radio" name="dir"  />&nbsp;
+						<label for="dir" id="lab2">Directed a Movie</label>
+				    </li>
+				    
+				    
+				    <li>
+				        <input type="submit" value="Submit" />
+				    </li>
+				</ul>
+			</form>
+	</div>
+</div>
+</body>
+</html>
